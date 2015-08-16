@@ -1,0 +1,30 @@
+/* a link */
+
+a {
+	text-decoration: none;
+}
+
+/* Header CSS */
+
+h1, h2, nav, nav a: visiited {
+	text-decoration: none;
+	color: #d9d9d9;
+}
+
+nav a.selected, nav a: hover {
+	color: #1a1a1a;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+
+/* Body of page */
+
+#home {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
