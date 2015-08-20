@@ -1,23 +1,61 @@
-/* a link */
 
-a {
+
+
+
+body {
+  background: #2d3339
+}
+
+img {
+	max-width: 100%;
+}
+
+nav a {
 	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	padding: 15px 10px
+}
+
 }
 
 /* Header CSS */
 
-h1, h2, nav, nav a: visiited {
-	text-decoration: none;
+.mainHeader {
+	/*padding-top: 100px;*/
+	height: 300px;
+	background: white url('..image/img_header.jpg') no-repeat center;
+}
+
+h1 {
+	font-family: 'comic_zine_ot';
+	font-size: 90px;
 	color: #d9d9d9;
+	padding-top: 15px;
+	text-decoration: none;
 }
 
-nav a.selected, nav a: hover {
-	color: #1a1a1a;
-}
-
-#logo {
+h2, h3 {
+	font-size: 45px;
+	color: #d9d9d9;
 	text-align: center;
-	margin: 0;
+}
+
+/* navagation */
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+.logo {
+	text-align: center;
+	margin: auto;
 }
 
 
@@ -27,4 +65,49 @@ nav a.selected, nav a: hover {
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
+	text-decoration: none;
 }
+
+.homeImage {
+	max-width: 100%;
+	list-style: none;
+
+}
+
+#imageGallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#imageGallery li {
+	float: left;
+	margin: 2.5%;
+	width: 25%;
+	margin: 2.5%;
+}
+
+
+/* Footer CSS */
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
