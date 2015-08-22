@@ -1,49 +1,66 @@
+/***************************
+GENERAL
+***************************/
 
 
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
 
-
-body {
-  background: #2d3339
+a {
+	text-decoration: none;
 }
 
 img {
 	max-width: 100%;
 }
 
-a {
-	text-decoration: none;
-	text-align: center;
-	font-weight: bold;
-	padding: 15px 10px
-}
 
-nav a.selected, nav a:hover {
-  color: #32673f;
+/***************************
+HEADING
+***************************/
 
- }
-
-/* Header CSS */
 
 header {
-	height: 300px;
-	background: white;
+	height: 700px;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
 }
 
 h1 {
-	font-family: 'MyWebFont', Arial, sans-serif;
-	font-size: 90px;
-	color: #d9d9d9;
-	padding-top: 15px;
-	text-decoration: none;
-}
-
-h2, h3 {
-	font-size: 45px;
-	color: #d9d9d9;
+	font-family: 'Amatic SC', cursive;
+	margin: 15px 0;
+	font-size: 4em;
+	font-weight: bold;
 	text-align: center;
 }
 
-/* navagation */
+h2 {
+	font-family: 'Covered By Your Grace', cursive;
+	font-size: 1.7em;
+	margin: -5px 0 0;
+	font-weight: normal;
+	text-align: center;
+}
+
+
+/***************************
+NAVIGATION
+***************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
 
 nav ul {
 	list-style: none;
@@ -55,77 +72,102 @@ nav li {
 	display: inline-block;
 }
 
-.logo {
-	text-align: center;
-	margin: auto;
+nav a {
+	padding: 15px 10px;
 }
 
 
-/* Body of page */
-
-#home {
-	max-width: 940px;
-	margin: 0 auto;
-	padding: 0 5%;
-	text-decoration: none;
-}
 
 
-}
+/***************************
+FOOTER
+***************************/
 
-/* Footer CSS */
 
 footer {
 	font-size: 0.75em;
 	text-align: center;
 	clear: both;
 	padding-top: 50px;
-	color: white;
+	color: #ccc;
 }
 
 
 
-/****************
-News/Homepage
-****************/
-
-
-.homeImage {
-	max-width: 100%;
-	list-style: none;
+/***************************
+COLORS
+***************************/
 
 
 
 
-/****************
-Current Works
-****************/
+/* site body */
+body {
+	background-color: #2d3339;
+	color: #fff;
+}
+
+/* white header */
+header {
+	background: #fff;
+}
+
+/* nav background on mobile */
+nav {
+	background: #2d3339;
+}
+
+
+h1, h2 {
+	color: #d9d9d9;
+}
+
+a {
+	color: #f4f3ce;
+}
+
+/* nav link */
+nav a, nav a:visited {
+	color: #d9d9d9;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+	color: #dbdab9;
+}
 
 
 
-#imageGallery {
-	margin: 0;
+
+/***************************
+CURRENT WORKS- IMAGE GALLERY
+***************************/
+
+
+
+
+#gallery {
+	list-style:none;
+	margin: 0 auto;
 	padding: 0;
-	list-style: none;
+	display: block;
+	max-width: 780px;
+	text-align: center;
 }
 
-#imageGallery li {
-	float: left;
-	margin: 2.5%;
-	width: 25%;
-	margin: 2.5%;
+#gallery li {
+	display: inline-block;
+	padding: 8px;
+	background:white;
+	margin:10px;
 }
 
-
-
-
-
-
-
-
-
-
-
+#gallery li a p {
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: #f4f3ce;
+}
 
 
 
