@@ -194,17 +194,17 @@ CURRENT WORKS- IMAGE GALLERY
 
 #overlay {
   background:rgba(0,0,0,0.7);
-  width:100%;
-  height:100%;
-  position:absolute;
-  top:0;
-  left:0;
-  display:none;
+  width: 100%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
   text-align:center;
 }
 
 #overlay img {
- margin-top: 10%; 
+ margin-top: 10%;
 }
 
 
@@ -245,7 +245,7 @@ PAGE: RESUME
 
 
 .resume {
-
+	text-align: center;
 }
 
 

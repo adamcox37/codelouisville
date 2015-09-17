@@ -8,7 +8,7 @@ var $image = $("<img>");
 $overlay.append($image);
 
 //Add overlay
-$("body").append($overlay);
+$("html").append($overlay);
   //A caption
 
 //Capture the click event on a link to an image
@@ -31,6 +31,8 @@ $overlay.click(function(){
   //Hide the overlay
   $overlay.hide();
 });
+
+
 
 
 
